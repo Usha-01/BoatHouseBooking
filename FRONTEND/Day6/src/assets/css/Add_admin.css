@@ -1,0 +1,137 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.Add_admin
+{
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'YourFont', sans-serif;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.Add_admin ::before {
+ 
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/Dash.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.Add_admin .adboat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Add_admin #im {
+  margin-bottom: 20px;
+}
+
+.Add_admin .image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  margin: 0px;
+}
+
+.Add_admin .boat-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#update {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Add_admin .image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.Add_admin .available-status {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.Add_admin .available-status.available {
+  color: #2ecc71; /* Green for available status */
+}
+
+.Add_admin .available-status.not-available {
+  color: #e74c3c; /* Red for not available status */
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db; /* Blue for button */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Star_Rating.css */
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star-rating svg {
+  margin-right: 4px;
+  font-size: 18px;
+  color: #ffc107; /* Color for filled stars */
+}
+
+.star-rating svg:not(:last-child) {
+  color: #e4e5e9; /* Color for unfilled stars */
+}

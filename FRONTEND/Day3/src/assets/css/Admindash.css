@@ -1,0 +1,49 @@
+.scale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+  background-color: white;
+  
+
+}
+
+.scale h2 {
+  margin-bottom: 20px;
+}
+
+.status .MuiBarChart-root {
+  margin-top: 20px;
+}
+
+
+.status {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'YourFont', sans-serif;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+
+.status::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Change from 100% to 100vw to match the viewport width */
+  height: 100vh;
+  background-image: url('../images/Dash.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  z-index: -1;
+}

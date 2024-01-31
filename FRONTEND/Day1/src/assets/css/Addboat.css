@@ -1,0 +1,72 @@
+/* .add-boat-form {
+    max-width: 400px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 2px solid #faf4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    
+  } */
+
+
+.boatadd
+{
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../images/Dash.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+ 
+}
+.add-boat-form {
+  max-width: 400px;
+  margin: 3% ;
+  padding: 20px;
+  border: 2px solid #faf4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 200px; */
+  }
+  
+  .add-boat-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-boat-form label {
+    margin-bottom: 10px;
+  }
+  
+  .add-boat-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .add-boat-form button {
+    background-color: #15b63d;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-boat-form button:hover {
+    background-color: #36b300;
+  }
+  

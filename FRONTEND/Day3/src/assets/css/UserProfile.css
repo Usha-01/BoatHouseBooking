@@ -1,0 +1,49 @@
+#user
+{
+  background-image: url('../images/Dash.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+.user-profile {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:white;
+    padding-top: 30px;
+    
+  }
+  
+  .profile-header {
+    text-align: center;
+  }
+  
+  .user-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .profile-details {
+    margin-top: 20px;
+  }
+  
+  .profile-details p {
+    margin-bottom: 10px;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .user-profile {
+      width: 100%;
+    }
+  }
+  

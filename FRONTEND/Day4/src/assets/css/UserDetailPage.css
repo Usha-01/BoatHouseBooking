@@ -1,0 +1,29 @@
+/* UserDetailPage.css */
+
+/* Style for the User Detail Page container */
+.user-detail-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the User Details heading */
+  .user-details-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for each user detail */
+  .user-detail-item {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the "Loading" message */
+  .loading-message {
+    font-size: 16px;
+    color: #555;
+  }
+  

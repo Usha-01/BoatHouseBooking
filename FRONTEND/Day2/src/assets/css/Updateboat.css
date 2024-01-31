@@ -1,0 +1,74 @@
+#boatupdate
+{
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../images/Dash.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+ 
+}
+.update-boat-form {
+    max-width: 400px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 2px solid #faf4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .update-boat-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #357ddc;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #36b300;
+  }
+  
+  .link-to-add {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .link-to-add a {
+    text-decoration: none;
+    color: #15b63d;
+    font-weight: bold;
+  }
+  
+  .link-to-add a:hover {
+    text-decoration: underline;
+  }
+  
