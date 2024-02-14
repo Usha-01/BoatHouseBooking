@@ -1,0 +1,27 @@
+/* #header
+{
+  display: grid;
+  grid-column: 1fr 1fr;
+  
+}
+#siteinfo
+{
+  text-align: left;
+  padding: 5px;
+}
+#siteinfo h1{
+  font-size: 20px;
+  padding: 0px;
+  line-height: 0.5;
+}
+#navbar
+{
+  text-align: center;
+}
+.navlink{
+  display: inline-block;
+  width: 60px;
+  font-size: 14px;
+  color:gray;
+  text-decoration: none;
+} */

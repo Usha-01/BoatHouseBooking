@@ -1,0 +1,41 @@
+/* In your Modal.css file */
+.MuiDialog-paper {
+    margin: 20px;
+    width: 80%;
+    overflow: hidden; /* Add this line to hide overflow */
+}
+
+.MuiDialogTitle-root {
+    color: rgb(0, 0, 0);
+}
+
+.MuiDialogContent-root {
+    padding: 20px;
+    overflow: hidden; /* Add this line to hide overflow */
+}
+
+.MuiDialogContent-root::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.MuiDialogContent-root::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Color of the scrollbar */
+    border-radius: 6px; /* Border radius of the scrollbar thumb */
+}
+
+.MuiDialogActions-root {
+    padding: 10px 20px;
+    justify-content: flex-end;
+}
+
+.MuiButton-root {
+    margin-left: 10px;
+}
+
+.MuiButton-root:first-child {
+    margin-left: 0;
+}
+
+.MuiButton-text {
+    color: #007bff;
+}

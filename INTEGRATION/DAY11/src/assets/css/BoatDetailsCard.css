@@ -1,0 +1,48 @@
+/* BoatDetailsCard.css */
+.detail-container
+{
+  background-image: url('../assets/images/boat.jpg'); /* Replace '../assets/images/background.jpg' with your actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+    width: 85%;
+    padding-left: 160px;
+    padding-top: 120px;
+   
+  }
+  
+  .card {
+    /* width: calc(33.33% - 10px); */
+    flex: 1 1 auto;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 10px;
+  }
+ 
+  .boat-type {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Media Query for Medium-Sized Screens */
+  @media (max-width: 768px) {
+    .card {
+      width: calc(20% - 20px);
+    }
+  }
+  .card .MuiCardMedia-root {
+    /* Adjust the width and height of the image */
+    width: 300px; /* Make the image fill the entire width of the card */
+    height: 250px;
+  }
+  

@@ -1,0 +1,75 @@
+.viewer {
+  
+  margin: 0 auto;
+  padding: 20px;
+  overflow-y: scroll;
+  width: 100%;
+  padding-left: 300px;
+}
+
+.select-container {
+  margin-bottom: 20px;
+}
+
+.select-container label {
+  margin-right: 10px;
+}
+
+.adjust {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: calc(100vh - 150px); /* Set a maximum height for the container */
+  /* overflow-y: auto;  */
+}
+
+.adjust .boat-card-container {
+  width: calc(30% - 10px); /* Adjusted width for two cards per row with margin */
+  margin-bottom: 20px; /* Add margin at the bottom */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.adjust .boat-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.adjust .boat-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.adjust .boat-card h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.adjust .boat-card b {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.adjust .boat-card p {
+  margin: 5px 0;
+}
+
+.adjust .boat-card button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.adjust .boat-card button:hover {
+  background-color: #c82333;
+}
+
+.boat-card .rev-now button{
+
+  background-color: #59c651;
+
+}

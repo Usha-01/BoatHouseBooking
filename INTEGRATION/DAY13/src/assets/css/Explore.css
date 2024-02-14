@@ -1,0 +1,56 @@
+/* Explore.css */
+
+.explore-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  /* background-color: rgb(218, 244, 254); */
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  font-family: 'YourFont', sans-serif;
+  overflow: scroll;
+  /* padding-bottom: 300px; */
+}
+
+#text {
+  font-size: large;
+}
+
+#text1 {
+  font-size: large;
+  padding-bottom: 40px;
+}
+
+.explore-book .image-container {
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping to create two rows */
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.explore-book .image {
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 15px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.explore-book .image:hover {
+  transform: scale(1.2);
+}
+
+.explore-book #im {
+  font-size: large;
+  font-family: 'YourFont', sans-serif;
+  padding-bottom: 30px;
+}
+
+h2{
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+}
